@@ -1,10 +1,8 @@
 ---
 layout: default
 modal-id: 1
-date: 2014-07-18
 img: Daily Daisies.png
-alt: image-alt
-project-date: October 2022
+alt: dailydaisies-alt
 client: Alternate Reality Initiative
 category: AR Development
 description: Daily Daisies is Alternate Reality Initiative’s year-long project where members developed and designed an augmented reality wellness app. The app aims to promote the user’s wellbeing through a generation of weekly and daily wellness tasks to nurture a collection of augmented reality plants. I guided members to design the user interface and gamification features to improve the wellness app’s user experience and encourage users to take care of their virtual plants often. 
