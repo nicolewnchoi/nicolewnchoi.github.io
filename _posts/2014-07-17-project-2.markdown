@@ -7,5 +7,7 @@ alt: painpal-alt
 project-date: January 2023
 client: MIT Reality Hack 2023
 category: MR Development
-description: PainPal is a mixed reality application to create a detailed visualization of the user’s pain points, allowing them to see exactly where and how your body is affected. With this information, PainPal suggests personalized exercises and stretches tailored to their specific needs, helping them to reduce pain and improve their overall well-being. I designed a website visualizing the patient’s areas of pain and the expected healing period accompanying the main PainPal application. Our team won the semifinalists for the best VR application in ensuring healthy lives and promoting wellbeing for all ages.
+description: PainPal is a mixed reality application to create a detailed visualization of the user’s pain points, allowing them to see exactly where and how your body is affected. With this information, PainPal suggests personalized exercises and stretches tailored to their specific needs, helping them to reduce pain and improve their overall well-being. 
+I designed a website visualizing the patient’s areas of pain and the expected healing period accompanying the main PainPal application. 
+Our team won the semifinalists for the best VR application in ensuring healthy lives and promoting wellbeing for all ages.
 ---
