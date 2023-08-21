@@ -2,9 +2,12 @@
 layout: default
 modal-id: 1
 img: Daily Daisies Logo.png
-img1: Selection.png
-img2: Checklist.png
+img1: Checklist.png
+description1: Checklist of daily and weekly activities
+img2: Selection.png
+description2: Plant Selection Screen
 img3: AR Scene.png
+description3: AR Scene with the selected plant
 alt: dailydaisies-alt
 client: Alternate Reality Initiative
 category: AR Development
