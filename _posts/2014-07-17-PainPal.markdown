@@ -1,9 +1,15 @@
 ---
 layout: default
 modal-id: 2
-img: PainPal.png
+img: PainPal Graphic.png
+img1: Paintbrush Demo.png
+description1: A VR scene that demonstrates the user's burning pain
+img2: Gamified Exercise.png
+description2: A treatment game "Star Stretch" that helps patients stretch their shoulders
+img3: Figma Website Mockup.png
+description3: The patient's view of the website designed in Figma visualizing the areas of pain and expected healing period.
 alt: painpal-alt
 client: MIT Reality Hack
-category: MR Development
+category: VR Development
 description: PainPal is a mixed reality application to create a detailed visualization of the user’s pain points, allowing them to see exactly where and how your body is affected. With this information, PainPal suggests personalized exercises and stretches tailored to their specific needs, helping them to reduce pain and improve their overall well-being. I designed a website visualizing the patient’s areas of pain and the expected healing period accompanying the main PainPal application. Our team won the semifinalists for the best VR application in ensuring healthy lives and promoting wellbeing for all ages.
 ---
