@@ -1,4 +1,13 @@
 <!-- Portfolio Modals -->
+<style>
+  .image{
+    margin-bottom: 0;
+  }
+  .subtitle{
+    margin-top: 0;
+    font-size: 12px;
+  }
+</style>
 {% for post in site.posts %}
 <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog"
   aria-hidden="true">
