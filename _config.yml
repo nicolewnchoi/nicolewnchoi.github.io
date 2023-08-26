@@ -25,17 +25,15 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: D8C0EF #80B3FF
-  primary-rgb: "204,204,255" #"128,179,255" CCCCFF
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: AA8AFF #80B3FF 
+  primary-rgb: "170,138,255" #"128,179,255" CCCCFF
+  secondary: 856dc6 #FD6E8A
+  secondary-dark: 625093 #A2122F
 
 # Footer settings
 footer:
   copyright: Wanpil Nicole Choi
-  location: Location
   social: Around the Web
-  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -45,11 +43,6 @@ social:
     url: https://github.com/nicolewnchoi
   - title: email
     url: mailto:wanpilc@umich.edu
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
 
 # Build settings
 markdown: kramdown
