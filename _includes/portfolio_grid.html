@@ -34,17 +34,19 @@
       </div>
     </div>
     <div class="portfolio-flex-row">
-      {% for lay in site.layouts2 %}
-      <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-{{ lay.modal-id }}" class="portfolio-link" data-toggle=“modal”>
-          <div class="caption">
-            <div class="caption-content">
-              <i class="fa fa-search-plus fa-3x"></i>
-            </div>
+      {% for post in site.posts %}
+        {% if post.tagART %}
+          <div class="portfolio-flex-item portfolio-item">
+            <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+              <div class="caption">
+                <div class="caption-content">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img src="img/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+            </a>
           </div>
-          <img src="img/{{ lay.img }}" class="img-responsive" alt="{{ lay.alt }}">
-        </a>
-      </div>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
