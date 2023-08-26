@@ -32,15 +32,15 @@
       </div>
     </div>
     <div class="portfolio-flex-row">
-      {% for post in site.posts %}
+      {% for layout in site.layouts2 %}
       <div class="portfolio-flex-item portfolio-item">
-        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle=“modal”>
+        <a href="#portfolioModal-{{ layout.modal-id }}" class="portfolio-link" data-toggle=“modal”>
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+          <img src="img/{{ layout.img }}" class="img-responsive" alt="{{ layout.alt }}">
         </a>
       </div>
       {% endfor %}
