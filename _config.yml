@@ -55,3 +55,8 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+  - scope:
+      path: ""
+      type: "layouts"
+    values:
+      permalink: ""
