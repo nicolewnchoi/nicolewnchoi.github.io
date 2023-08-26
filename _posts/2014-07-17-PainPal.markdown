@@ -1,5 +1,6 @@
 ---
 layout: default
+tag: CS
 modal-id: 2
 img: PainPal Graphic.png
 img1: Paintbrush Demo.png
