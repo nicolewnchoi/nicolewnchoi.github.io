@@ -57,6 +57,6 @@ defaults:
       permalink: ""
   - scope:
       path: ""
-      type: "layouts"
+      type: "layouts2"
     values:
       permalink: ""
