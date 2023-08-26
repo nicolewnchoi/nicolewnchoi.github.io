@@ -3,6 +3,7 @@ layout: default
 tagART: Art
 modal-id: 4
 img: Temptation.png
+img1: Temptation.png
 alt: image-alt
 client: Personal Project
 category: Animation
