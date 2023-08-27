@@ -12,5 +12,5 @@ description3: One of the game scenes where the player transitions to the next sc
 alt: takoyaki-alt
 client: WolverineSoft Summer Jam 2022
 category: Game Development
-description: As a programmer, I programmed and designed an aesthetically pleasing healthbar for the best user experience for users. My team won third place for the best game in WolverineSoft's 2022 Summer Game Jam for aesthetically pleasing visuals, engaging gameplay, and memorable music.
+description: As a programmer, I programmed and designed an aesthetically pleasing healthbar for the best user experience for users. My team won third place for the best game in WolverineSoft's 2022 Summer Game Jam for aesthetically pleasing visuals, engaging gameplay, and memorable music.<p><a href = https://thevoices.itch.io/takoyakis-revenge> Project Link </a></p>
 ---
