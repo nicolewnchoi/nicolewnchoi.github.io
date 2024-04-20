@@ -6,20 +6,39 @@
         <div class="footer-col col-md-4">
           <h3>{{ site.footer.location }}</h3>
           <p>
-            {% for adress in site.address %}
-            {{ adress.line }} <br>
+            {% for adress in site.address %} {{ adress.line }} <br />
             {% endfor %}
           </p>
         </div>
         <div class="footer-col col-md-4">
-          <h3>{{ site.footer.social }}</h3>
+          <h3>Contact Me</h3>
           <ul class="list-inline">
-            {% for network in site.social %}
             <li>
-              <a href="{{ network.url }}" class="btn-social btn-outline"><i
-                  class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
+              <a
+                href="https://www.linkedin.com/in/wanpil-choi-234396156/"
+                aria-label="first link"
+                class="btn-social btn-outline"
+                ><i class="fa-brands fa-fw fa-linkedin"></i
+              ></a>
             </li>
-            {% endfor %}
+
+            <li>
+              <a
+                href="https://github.com/nicolewnchoi"
+                aria-label="second link"
+                class="btn-social btn-outline"
+                ><i class="fa-brands fa-fw fa-github"></i
+              ></a>
+            </li>
+
+            <li>
+              <a
+                href="mailto:wanpilc@umich.edu"
+                aria-label="third link"
+                class="btn-social btn-outline"
+                ><i class="fa-brands fa-fw fa-google"></i
+              ></a>
+            </li>
           </ul>
         </div>
         <div class="footer-col col-md-4">
@@ -33,7 +52,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date: '%y' }}
+          Copyright &copy; {{ site.footer.copyright }} 20{{ site.time | date:
+          '%y' }}
         </div>
       </div>
     </div>
@@ -41,8 +61,8 @@
 </footer>
 
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-<div class="scroll-top page-scroll visible-xs visible-sm">
+<!-- <div class="scroll-top page-scroll visible-xs visible-sm">
   <a class="btn btn-primary" href="#page-top">
     <i class="fa fa-chevron-up"></i>
   </a>
-</div>
+</div> -->
