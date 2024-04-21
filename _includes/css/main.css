@@ -194,22 +194,23 @@ ul {
     background-color: #005A7C;
 }
 
-section {
+/* section {
     padding: 75px 0 0 0;
-}
+} */
 
-section h2 {
+.success h2 {
     margin: 0;
     font-size: 3em;
     margin-top: 40px;
 }
 
-section.success {
+.success {
     color: #271F3D;
     background-color: #BFEEFF;
+    padding: 75px 0 0 0;
 }
 
-@media(max-width:767px) {
+/* @media(max-width:767px) {
     section {
         padding: 75px 0 0 0;
     }
@@ -217,7 +218,7 @@ section.success {
     section.first {
         padding-top: 75px;
     }
-}
+} */
 
 #portfolio .portfolio-item {
     right: 0;
