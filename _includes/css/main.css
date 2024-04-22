@@ -4,7 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-
 body {
     overflow-x: hidden;
 }
@@ -21,6 +20,13 @@ p {
 
 p.small {
     font-size: 16px;
+}
+
+a:hover,
+a:focus {
+    /* color: #271F3D; */
+    color: #ffffff;
+    text-decoration: underline
 }
 
 a,
@@ -129,7 +135,7 @@ ul {
 .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
     color: #ffffff;
-    background-color: transparent;
+    /* background-color: #005A7C; */
 }
 
 @media(min-width:768px) {
@@ -329,6 +335,7 @@ ul {
 .btn-outline.active {
     border: solid 2px #fff;
     color: #271F3D;
+    /* color: #ffffff; <-- this apparently has no effect...*/
     background: #fff;
 }
 
@@ -382,6 +389,7 @@ ul {
 
 .floating-label-form-group-with-focus label {
     color: #271F3D;
+    /* color: #ffffff; <-- has no effect with the hover focus...*/
 }
 
 form .row:first-child .floating-label-form-group {
@@ -513,9 +521,11 @@ footer .footer-below {
 
 .navbar-header, .navbar-collapse {
     background-color: #005A7C;
+    /* background-color: #ffffff; */
 }
 
 .page-scroll>.active>a {
+    color: #ffffff;
     background-color: #ffffff;
     /* background-color: #001B25; */
 }
@@ -692,5 +702,6 @@ hr.star-primary:after {
     .navbar-fixed-top .navbar-brand {
         font-size: 1.9em;
         transition: all .3s;
+        color: #ffffff;
     }
 }
