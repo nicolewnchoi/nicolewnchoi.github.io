@@ -4,6 +4,68 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ .navbar-default .navbar-brand:hover,
+ .navbar-default .navbar-brand:focus {
+     /* color: #271F3D; */
+    color: #ffffff;
+     background-color: transparent
+ }
+
+ .navbar-default .navbar-text {
+     color: #777777
+ }
+
+ .navbar-default .navbar-nav>li>a {
+     color: #ffffff
+ }
+
+ .navbar-default .navbar-nav>li>a:hover,
+ .navbar-default .navbar-nav>li>a:focus {
+    /* color: #271F3D; */
+    color: #ffffff;
+    text-decoration: underline;
+    /* background-color: #271F3D; */
+ }
+
+ .navbar-default .navbar-nav>.active>a,
+ .navbar-default .navbar-nav>.active>a:hover,
+ .navbar-default .navbar-nav>.active>a:focus {
+    color: #ffffff;
+    background-color: #271F3D;
+ }
+
+ .navbar-default .navbar-nav>.disabled>a,
+ .navbar-default .navbar-nav>.disabled>a:hover,
+ .navbar-default .navbar-nav>.disabled>a:focus {
+     color: #cccccc;
+     background-color: transparent
+ }
+
+ .navbar-default .navbar-toggle {
+     border-color: #1a242f
+ }
+
+ .navbar-default .navbar-toggle:hover,
+ .navbar-default .navbar-toggle:focus {
+     background-color: #1a242f
+ }
+
+ .navbar-default .navbar-toggle .icon-bar {
+     background-color: #ffffff
+ }
+
+ .navbar-default .navbar-collapse,
+ .navbar-default .navbar-form {
+     border-color: transparent
+ }
+
+ .navbar-default .navbar-nav>.open>a,
+ .navbar-default .navbar-nav>.open>a:hover,
+ .navbar-default .navbar-nav>.open>a:focus {
+     background-color: #1a242f;
+     color: #ffffff
+ }
+
 body {
     overflow-x: hidden;
 }
@@ -521,13 +583,13 @@ footer .footer-below {
 
 .navbar-header, .navbar-collapse {
     background-color: #005A7C;
-    /* background-color: #ffffff; */
+    /* background-color: #ffffff; <-- no effect */
 }
 
 .page-scroll>.active>a {
     color: #ffffff;
     background-color: #ffffff;
-    /* background-color: #001B25; */
+    /* background-color: #001B25; <-- no effect*/
 }
 
 /* Fix modal mouse wheel issues */
