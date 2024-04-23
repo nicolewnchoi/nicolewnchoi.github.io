@@ -5,9 +5,9 @@ modal-id: 3
 img: Takoyakis_Revenge.png
 img1: Opening_Scene.png
 description1: The opening scene of the game
-img2: Scene with Healthbar.png
+img2: Scene_with_Healthbar.png
 description2: One of the game scenes with the healthbar UI
-img3: Moving to Next Scene.png
+img3: Moving_to_Next_Scene.png
 description3: One of the game scenes where the player transitions to the next scene
 alt: takoyaki-alt
 client: WolverineSoft Summer Jam 2022
