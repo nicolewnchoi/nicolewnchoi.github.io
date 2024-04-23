@@ -2,12 +2,12 @@
 layout: default
 tag: CS
 modal-id: 2
-img: PainPal Graphic.png
-img1: Paintbrush Demo.png
+img: PainPal_Graphic.png
+img1: Paintbrush_Demo.png
 description1: A VR scene that demonstrates the user's burning pain
-img2: Gamified Exercise.png
+img2: Gamified_Exercise.png
 description2: A treatment game "Star Stretch" that helps patients stretch their shoulders
-img3: Figma Website Mockup.png
+img3: Figma_Website_Mockup.png
 description3: The patient's view of the website designed in Figma visualizing the areas of pain and expected healing period.
 alt: painpal-alt
 client: MIT Reality Hack
