@@ -2,8 +2,8 @@
 layout: default
 tag: CS
 modal-id: 3
-img: Takoyakis Revenge.png
-img1: Opening Scene.png
+img: Takoyakis_Revenge.png
+img1: Opening_Scene.png
 description1: The opening scene of the game
 img2: Scene with Healthbar.png
 description2: One of the game scenes with the healthbar UI
